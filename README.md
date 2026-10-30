@@ -236,7 +236,6 @@ ML307A_build.bat CLEAN
 3. 将 Broker 地址、ClientID、用户名、密码、Topic 填入 `custom/custom_main/src/chg_module.c` 的 MQTT 配置区。
 4. 重新编译并烧录；设备上线后串口打印 `device_tn_open`，LED 开始闪烁。
 
-> ⚠️ **不要把真实三元组与 MQTT 密码提交到公开仓库**。建议使用占位符或本地配置文件，并对已经提交过的密钥立即轮换。
 
 ### 4. 运行
 
@@ -420,6 +419,6 @@ UART0：**115200 8N1**，上电后输出 `sh>` 提示符。
 - `third-party/` 下的 cJSON、Aliyun SDK、zbar 等按其各自许可证分发。
 - `custom/custom_main/` 下的应用层代码由项目作者编写，用于作品展示。仓库暂未声明开源许可证，如需引用或复用请联系作者。
 
-**作者**：Yifan Huang（黄熠凡）· 物联网工程 · [GitHub @A-goldstar](https://github.com/A-goldstar)
+**作者**：[GitHub @A-goldstar](https://github.com/A-goldstar)
 
 > 本项目为学习与作品展示用途。涉及 220 V 交流充电回路的设计、调试与使用必须由具备资质的人员完成，并遵守当地电气安全规范。
