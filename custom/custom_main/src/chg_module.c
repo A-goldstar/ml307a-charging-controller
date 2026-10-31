@@ -432,10 +432,10 @@ static char cmqtt_glob_cfgclient_id[129] = "a1zukTvYu5S.Vra8xiisfbZM6Cl5Qsal|sec
 static int cmqtt_glob_cfgkeepAlive = 60;                        //用户自行修改连接保活时间
 
 /* 用户名 */
-static char cmqtt_glob_cfguser[129] = "Vra8xiisfbZM6Cl5Qsal&a1zukTvYu5S";                       //用户自行写入MQTT测试用户名      
+static char cmqtt_glob_cfguser[129] = "**************";                       //用户自行写入MQTT测试用户名      
 
 /* 密码 */
-static char cmqtt_glob_cfgpasswd[129] = "CE08C104077F67356984DB77C809484289DF7B6EC732E4A0AD6027C8A6A79887";                     //用户自行写入MQTT测试1号密码
+static char cmqtt_glob_cfgpasswd[129] = "************";                     //用户自行写入MQTT测试1号密码
 
 /* 是否清除会话 */
 static int cmqtt_glob_cfgclean = 1;                             //用户自行修改clean模式，0为不清除，1为清除
